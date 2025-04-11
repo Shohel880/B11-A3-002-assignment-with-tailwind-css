@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tailwind css</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+          <script src="https://kit.fontawesome.com/c33d4e8208.js" crossorigin="anonymous"></script>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <script>
+              tailwind.config = {
+                theme: {
+                  extend: {
+                    colors: {
+                      clifford: '#da373d',
+                    }
+                  }
+                }
+              }
+            </script>
+            
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/02e897e433.js" crossorigin="anonymous"></script>
+    <style>
+      .fonts{
+        font-family: sans-serif;
+        }
+    </style>
+  </head>
+    <body>
+      <header>
+        <nav class="mb-10">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Product</a></li>
+                  <li>
+                    <a>Services</a>
+                  </li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+              <img class="btn btn-ghost text-xl"src="logo-header.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <div class="indicator">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+               </svg>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                <span class="badge badge-sm indicator-item">8</span>
+              </div>
+              <a class="btn ring-1 ring-green-400 ml-8">Login</a>
+              <a class="btn bg-green-600 ml-2">Register</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+      <div class="">
+        <div>
+            <h1 class="text-center text-5xl font-bold mb-8">Freshness <span class="text-green-600">You Can <br>Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-center font-sora">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br>staples, we’ve got you covered every day!</p>
+        </div>
+          <div class="flex item-center justify-center mb-20 bg-gradient-to-t from-cyan-100 to-brown-800"><img src="hero-vegetables.png" alt=""></div>
+        </div>
+        <div class="container mx-auto mb-20">
+          <h3 class="text-3xl font-bold text-green-600 mb-10 ml-24">Services</h3>
+        <div class="flex mx-24 space-x-5 container mx-auto"> 
+          <div class="bg-orange-100 p-5 rounded-lg">
+            <img class="mx-auto bg-white rounded-full" src="service.png" alt="">
+            <h3 class="text-center text-sm font-bold my-2">24/7 Services </h3>
+            <p class="text-center font-Sora">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+          <div class="bg-orange-100 p-5 rounded-lg">
+            <img class="mx-auto bg-white rounded-full" src="delivery.png" alt="">
+            <h3 class="text-center text-sm font-bold my-2">Fast Delivery</h3>
+            <p class="text-center font-Sora">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+          <div class="bg-orange-100 p-5 rounded-lg">
+            <img class="mx-auto bg-white rounded-full" src="healthy.png" alt="">
+            <h3 class="text-center text-sm font-bold my-2">Healthy Products </h3>
+            <p class="text-center font-Sora">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-orange-100 mb-20">
+        <div class="container mx-auto">
+          <h3 class="text-3xl font-bold text-green-600 ml-16 mb-10 pt-16">Popular Products</h3>
+         <div class="flex my-auto"> 
+          <div class="bg-gradient-to-b from-green-500 to-wite container mx-auto pl-3 mb-24 rounded-xl">
+            <h4 class="font-bold text-2xl text-white mt-4">30% off</h4>
+            <p class="mt-4">Discover a world treats, toys and <br>essetials handpicked for</p>
+            <button class="bg-white h-8 w-24 rounded-lg text-lg font-Sora mt-4">Buy Now</button>
+            <img class="h-36 w-40 ml-16" src="vegetable-offer.png" alt="">
+          </div>
+          <div class="container mx-auto my-auto">
+            <div class="flex gap-3 mx-6 mb-3 mt-1">
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="onion.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Onion 900 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="tomato.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Tomato 750 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="potato.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Potato 1100 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-3 mx-6 mb-3">
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="onion.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Onion 900 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="tomato.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Tomato 750 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="potato.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Potato 1100 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-3 mx-6 mb-24">
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="onion.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Onion 900 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="tomato.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Tomato 750 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+              <div class="flex bg-white p-3 rounded-xl w-60 h-24">
+                <div class="mr-2"><img class="bg-orange-100 m rounded-lg" src="potato.png" alt=""></div>
+                <div>
+                  <i class="fa-solid fa-star"> 4.5</i>
+                  <h2 class="text-lg font-bold">Potato 1100 gm</h2>
+                  <h3 class="text-sm font-bold">$39.99</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="container mx-auto mx-16">
+          <h2 class="text-3xl font-bold text-green-600 mb-10 ml-24">Arrival & Offers</h2>
+          <div class="flex gap-5 mb-20">
+            <div class="flex bg-green-900 rounded-3xl container mx-auto">
+              <div class="my-auto">
+                <img class="mt-4" src="dawat-logo.png" alt="">
+                <h3 class="bg-green-500 h-12 rounded-lg text-xl font-Sora text-gray-100 pt-2 text-center my-8 ml-4">Cook Exotic Dishes</h3>
+                <h1 class="mx-auto text-3xl text-white pl-4">UP to <span class="font-bold text-3xl text-white">20% OFF</span></h1>
+              </div>
+              <img class="h-64 w-42 my-auto" src="dawat-mock-up.png" alt="">
+            </div>
+            <div class="flex bg-blue-950 rounded-3xl container mx-auto">
+              <div class="my-auto">
+                <img class="mt-4 mx-auto" src="india-gate-logo.png" alt="">
+                <h3 class="bg-blue-900 h-12 rounded-lg text-xl font-Sora text-gray-100 pt-2 text-center my-8 ml-4">World’s No.1 Rice</h3>
+                <h1 class="mx-auto text-3xl text-white pl-4">UP to <span class="font-bold text-3xl text-white">40% OFF</span></h1>
+              </div>
+              <img class="h-64 w-42 my-auto mx-auto" src="india-gate-mock-up.png" alt="">
+            </div>
+          </div>
+        </div>
+    </main>
+      <footer>
+        <div class="relative">
+          <div class="absolute flex bg-orange-100 rounded-xl container mx-24 mb-24">
+            <div class="my-16 mx-32"><img src="vegetable-busket.png" alt=""></div>
+              <div class="my-24 mx-16">
+              <h2 class="text-4xl font-bold font-Sora mb-8">Get Grocery News!</h2>
+              <p class="text-xl font-Sora mb-8">Exclusive training tips, ticks, product deals and more.</p>
+              <input class="h-14 w-96 rounded-lg mb-8" type="email" placeholder="    Enter E-mail.."><br>
+              <button class="bg-green-600 h-12 w-48 text-xl text-white rounded-xl">Subscribe</button>
+            </div>
+          </div>
+          <div>
+            <div class="flex bg-green-600">
+              <div class="m-20 container mt-40">
+                <img class="bg-gray-100 mb-4" src="logo-header.png" alt="">
+                <p class="text-xl font-Sora text-green-100">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+              </div>
+              <div class="container text-center mt-40">
+                <div><button class="text-xl font-Sora text-green-100 mb-8">Product</button></div>
+                <div><button class="text-xl font-Sora text-green-100 mb-8">Services</button></div>
+                <div><button class="text-xl font-Sora text-green-100 mb-8">Contact us</button></div>
+              </div>
+              <div class="container mx-auto mt-56">
+                <h3 class="text-center font-sora text-green-100 text-xl mb-5">Follow us</h3>
+                <div class="flex container mx-auto justify-center gap-5">
+                    <div class="bg-white rounded-full"><i class="fa-brands fa-facebook mx-1 my-auto"></i></div>
+                    <div class="bg-white rounded-full"><i class="fa-brands fa-instagram mx-1 my-auto"></i></div>
+                    <div class="bg-white rounded-full"><i class="fa-brands fa-linkedin mx-1 my-auto"></i></div>
+                    <div class="bg-white rounded-full"><i class="fa-brands fa-youtube mx-1 my-auto"></i></div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
